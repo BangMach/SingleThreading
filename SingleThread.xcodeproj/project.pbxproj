@@ -16,6 +16,9 @@
 		302423D82525DF74006AD380 /* SingleThreadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302423D72525DF74006AD380 /* SingleThreadTests.swift */; };
 		302423E32525DF74006AD380 /* SingleThreadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302423E22525DF74006AD380 /* SingleThreadUITests.swift */; };
 		302423F42526187F006AD380 /* SingleThreadExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302423F32526187F006AD380 /* SingleThreadExample.swift */; };
+		30D671FD252A3CED006EF9CA /* REST_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D671FC252A3CED006EF9CA /* REST_Request.swift */; };
+		30D67205252A3D2A006EF9CA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D67204252A3D2A006EF9CA /* Recipe.swift */; };
+		30D6720E252A3DE1006EF9CA /* RecipeViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6720D252A3DE1006EF9CA /* RecipeViewModel .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		302423E22525DF74006AD380 /* SingleThreadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThreadUITests.swift; sourceTree = "<group>"; };
 		302423E42525DF74006AD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		302423F32526187F006AD380 /* SingleThreadExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleThreadExample.swift; sourceTree = "<group>"; };
+		30D671FC252A3CED006EF9CA /* REST_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_Request.swift; sourceTree = "<group>"; };
+		30D67204252A3D2A006EF9CA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		30D6720D252A3DE1006EF9CA /* RecipeViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecipeViewModel .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		302423BF2525DF72006AD380 /* SingleThread */ = {
 			isa = PBXGroup;
 			children = (
+				30D671FC252A3CED006EF9CA /* REST_Request.swift */,
+				30D6720C252A3D4B006EF9CA /* View */,
+				30D6720B252A3D42006EF9CA /* ViewModel */,
+				30D67209252A3D38006EF9CA /* Model */,
 				302423C02525DF72006AD380 /* SingleThreadApp.swift */,
 				302423C22525DF72006AD380 /* ContentView.swift */,
 				302423F32526187F006AD380 /* SingleThreadExample.swift */,
@@ -137,6 +147,29 @@
 				302423E42525DF74006AD380 /* Info.plist */,
 			);
 			path = SingleThreadUITests;
+			sourceTree = "<group>";
+		};
+		30D67209252A3D38006EF9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30D67204252A3D2A006EF9CA /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30D6720B252A3D42006EF9CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30D6720D252A3DE1006EF9CA /* RecipeViewModel .swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30D6720C252A3D4B006EF9CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +303,10 @@
 			files = (
 				302423CA2525DF74006AD380 /* Persistence.swift in Sources */,
 				302423C32525DF72006AD380 /* ContentView.swift in Sources */,
+				30D67205252A3D2A006EF9CA /* Recipe.swift in Sources */,
 				302423C12525DF72006AD380 /* SingleThreadApp.swift in Sources */,
+				30D671FD252A3CED006EF9CA /* REST_Request.swift in Sources */,
+				30D6720E252A3DE1006EF9CA /* RecipeViewModel .swift in Sources */,
 				302423CD2525DF74006AD380 /* SingleThread.xcdatamodeld in Sources */,
 				302423F42526187F006AD380 /* SingleThreadExample.swift in Sources */,
 			);
